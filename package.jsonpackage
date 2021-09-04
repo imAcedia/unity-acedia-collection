@@ -1,0 +1,19 @@
+
+{
+    "name" : "com.imacedia.collection",
+    "version" : "0.1.0",
+    "displayName" : "Acedia Collection",
+    "description" : "A random collection of scripts and tools made by imAcedia.",
+    "unity"       : "2020.2",
+    "unityRelease" : "",
+    "dependencies" : {
+        "com.unity.2d.sprite" : "1.0.0"
+    },
+    "keywords"     : [
+    ],
+    "author"       : {
+        "name" : "imAcedia",
+        "email" : "adhan.f@outlook.com",
+        "url"   : ""
+    }
+}

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: a1868abb2c91d0f4c838304adaf9bac0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 305d72b64a2242c0b6ff1d70a6bc89f4, type: 3}
+  name: com.imacedia.acediacollection
+  version: 0.1.0
+  displayName: Acedia Collection
+  description: A random collection of scripts and tools made by imAcedia.
+  unity: 2020.2
+  unityRelease: 
+  dependencies:
+    keyValuePairs:
+    - key: com.unity.2d.sprite
+      value: 1.0.0
+  keywords: []
+  author:
+    name: imAcedia
+    email: adhan.f@outlook.com
+    url: 
+  autoExportJson: 1
+  registryUrl: https://registry.my-company.com
