@@ -3,7 +3,7 @@
     "name" : "com.imacedia.collection",
     "version" : "0.1.1",
     "displayName" : "Acedia Collection",
-    "description" : "A random collection of scripts and tools made by imAcedia.",
+    "description" : "A random collection of scripts and tools made by A&.",
     "unity"       : "2020.2",
     "unityRelease" : "",
     "dependencies" : {
@@ -12,7 +12,7 @@
     "keywords"     : [
     ],
     "author"       : {
-        "name" : "imAcedia",
+        "name" : "A&",
         "email" : "adhan.f@outlook.com",
         "url"   : ""
     }
