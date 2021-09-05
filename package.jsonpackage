@@ -1,7 +1,7 @@
 
 {
     "name" : "com.imacedia.collection",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "displayName" : "Acedia Collection",
     "description" : "A random collection of scripts and tools made by imAcedia.",
     "unity"       : "2020.2",

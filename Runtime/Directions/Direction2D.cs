@@ -25,7 +25,7 @@ namespace Acedia
         None = 0,
     }
 
-    static class Direction2DExtensions
+    public static class Direction2DExtensions
     {
         public static bool IsValid(this Direction2D d)
         {
