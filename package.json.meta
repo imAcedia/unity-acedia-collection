@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1868abb2c91d0f4c838304adaf9bac0
+guid: a647f0346113ecf4da0f2a9ed78a43d3
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 305d72b64a2242c0b6ff1d70a6bc89f4, type: 3}
-  name: com.imacedia.acediacollection
+  name: com.imacedia.collection
   version: 0.1.0
   displayName: Acedia Collection
   description: A random collection of scripts and tools made by imAcedia.

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace Acedia.s
+namespace Acedia
 {
     [CustomPropertyDrawer(typeof(IMultipleAttribute), true)]
     public class MultipleAttributesDrawer : PropertyDrawer
