@@ -67,6 +67,9 @@ namespace Acedia
 #if UNITY_EDITOR
         public void BeforeOnGUI(Rect position, SerializedProperty property, GUIContent label) { }
 
+        // IMPORTANT: Add Begin/EndProperty so it works on prefabs
+        // IMPORTANT: Add Begin/EndProperty so it works on prefabs
+        // IMPORTANT: Add Begin/EndProperty so it works on prefabs
         public bool OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             if (property.propertyType != SerializedPropertyType.Float && property.propertyType != SerializedPropertyType.Integer)
@@ -106,11 +109,11 @@ namespace Acedia
 
             if (!useInt)
             {
-                property.floatValue = EditorGUI.Slider(position, label, property.floatValue, min, max);
+                EditorGUI.Slider(position, property, min, max, label);
             }
             else
             {
-                property.floatValue = EditorGUI.IntSlider(position, label, (int)property.floatValue, (int)min, (int)max);
+                EditorGUI.IntSlider(position, property, (int)min, (int)max, label);
             }
 
             return true;
