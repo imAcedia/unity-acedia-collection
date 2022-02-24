@@ -9,7 +9,7 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 305d72b64a2242c0b6ff1d70a6bc89f4, type: 3}
   name: com.imacedia.collection
-  version: 0.2.0
+  version: 0.3.0
   displayName: Acedia Collection
   description: A random collection of scripts and tools made by A&.
   unity: 2020.2
