@@ -124,6 +124,24 @@ namespace Acedia
             return result != null;
         }
 
+        public static bool TryCast<TBase, TDerived>(TBase from, out TDerived result, bool throwsException = false)
+                where TBase : class
+                where TDerived : struct, TBase
+        {
+            try
+            {
+                result = (TDerived)from;
+            }
+            catch (InvalidCastException)
+            {
+                if (throwsException) throw;
+                result = new();
+                return false;
+            }
+
+            return true;
+        }
+
         public static float Cross2D(this Vector2 v1, Vector2 v2)
         {
             return v1.x * v2.y - v1.y * v2.x;
